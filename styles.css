@@ -1,0 +1,265 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Barre de navigation */
+  nav ul {
+    list-style: none;
+    background-color: #bb9e80;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 0;
+   
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Section de bannière */
+  .banner {
+    text-align: center;
+  
+    background-color: #f8f8f8;
+    background-image: url(images/Design\ sans\ titre.png) ;
+background-repeat: no-repeat;
+background-position: center;
+padding: 100px 0;
+    
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Section de présentation des produits */
+  .products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+  
+  .product-card {
+    width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+
+  }
+  
+  .product-card img {
+    width: 100%;
+
+    margin-bottom: 15px;
+   
+  }
+ /* Ajoutez des styles spécifiques à la page Collections ici */
+
+.collections {
+    padding: 50px 0;
+  }
+  
+  .collection {
+    margin-bottom: 40px;
+  }
+  
+  .collection h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    
+  }
+  
+  /* Styles des cartes de produits pour chaque collection */
+  /* ... */
+  
+  /* Styles spécifiques aux différentes collections (bagues, colliers, etc.) */
+  /* ... */
+   /* Styles spécifiques à la page Contact */
+
+/* Styles spécifiques à la page Contact */
+
+.contact-section {
+    padding: 50px 0;
+    background-image: url(images/bckgroundcontact.jpg);
+  }
+  
+  .contact-section .container {
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+/* Styles spécifiques à la page À Propos */
+
+.about-section {
+    padding: 50px 0;
+    background-color: rgb(234, 213, 189);
+  }
+  
+  .about-section .container {
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    margin-bottom: 30px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+    flex: 1 1 200px;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .site-footer {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+    color: #333;
+    margin-bottom: 0px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-info,
+  .footer-links,
+  .social-media {
+    flex: 1 1 30%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-info h3,
+  .footer-links h3,
+  .social-media h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-info p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  
