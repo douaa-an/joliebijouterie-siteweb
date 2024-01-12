@@ -95,6 +95,7 @@ if (name && email && message) {
           <li><a href="collections.php">Collections</a></li>
           <li><a href="about.php">À Propos</a></li>
           <li><a href="contact.php">Contact</a></li>
+          <li><a href="inscription.php">Inscription</a></li>
         </ul>
       </div>
       <div class="social-media">

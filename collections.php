@@ -17,6 +17,7 @@
           <li><a href="collections.php">Collections</a></li>
           <li><a href="about.php">À propos</a></li>
           <li><a href="contact.php">Contact</a></li>
+          <li><a href="inscription.php">Inscription</a></li>
         </ul>
       </nav> 
   </header>
